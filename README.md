@@ -1,5 +1,7 @@
 # build-test-vue
 
+[![Build Status](https://travis-ci.org/Kaleidostar/build-test-vue.svg?branch=master)](https://travis-ci.org/Kaleidostar/build-test-vue)
+
 ## Project setup
 ```
 npm install
