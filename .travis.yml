@@ -4,6 +4,7 @@ node_js:
 cache:
   directories:
     - node_modules
+before_script: cd premium
 script:
   - npm run test:unit
 after_script:
