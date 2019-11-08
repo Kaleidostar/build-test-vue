@@ -1,4 +1,5 @@
 module.exports = {
+  verbose: true,
   moduleFileExtensions: [
     'js',
     'jsx',
@@ -22,10 +23,5 @@ module.exports = {
   testMatch: [
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
   ],
-  testURL: 'http://localhost/',
-  collectCoverage: true,
-  collectCoverageFrom: ['**/*.{vue}', '!**/node_modules/**', '!<rootDir>/dist/**',
-    '!<rootDir>/src/plugins/**', '!<rootDir>/tests/unit/**'
-  ],
-  coverageReporters: ['lcov', 'text-summary']
+  testURL: 'http://localhost/'
 }
